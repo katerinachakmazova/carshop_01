@@ -32,3 +32,14 @@ article{
   border: 1px solid black;
   border-radius: 10px;
 }
+footer {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer p{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}

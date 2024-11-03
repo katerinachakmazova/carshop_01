@@ -14,3 +14,24 @@ li {
 header img{
   width: 100px;
 }
+article img{
+  width: 100px;
+  display: flex;
+  float: left;
+  padding: 5px;
+}
+article h2{
+  display: flex;
+  float: left;
+}
+article{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+h5 {
+  font-size: medium;
+}

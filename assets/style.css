@@ -43,3 +43,11 @@ footer p{
   display: flex;
   justify-content: center;
 }
+table,thead,tbody {
+  border: 1px solid black;
+  border-collapse: separate;
+  width: 650px;
+}
+th,td{
+  border: 1px solid black;
+}

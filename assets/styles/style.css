@@ -9,6 +9,10 @@ body {
 h1,h2 {
   color: #38285c;
 }
+h3 {
+  text-align: center;
+  margin: 0;
+}
 ul {
   display:flex;
   list-style-type: none;
@@ -41,8 +45,13 @@ article{
 section {
   background-color: #c2bae3;
   border-radius: 10px;
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
+}
+[name="models"] {
+ margin-bottom: 0px;
+ margin-top: 0px;
+ padding: 2px;
 }
 footer {
   display: flex;

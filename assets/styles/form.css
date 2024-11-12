@@ -1,21 +1,4 @@
-header {
-  display:flex;
-  align-items: center;
-  background-color: #60298c;
-}
-body {
-  background-color: #ebe5ff;
-}
-h1,h2 {
-  color: #38285c;
-}
-a {
-  color: #ebe5ff;
-  margin: 10px;
-}
-header>img{
-  width: 100px;
-}
+@import url(structure.css);
 .range {
   width:1100px;
 }
@@ -24,19 +7,12 @@ datalist {
   justify-content:space-evenly;
 
 }
-footer {
-  display: flex;
-  padding: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #60298c;
-}
+
 form {
   margin-bottom: 20px;
 }
-footer>a, footer>p{
-  padding: 10px;
-  display: flex;
+header>nav>a
+{
   color: #ebe5ff;
+  margin:5px;
 }

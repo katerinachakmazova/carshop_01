@@ -1,11 +1,4 @@
-header {
-  display:flex;
-  align-items: center;
-  background-color: #60298c;
-}
-body {
-  background-color: #ebe5ff;
-}
+@import url(structure.css);
 h1,h2 {
   color: #38285c;
 }
@@ -13,19 +6,7 @@ h3 {
   text-align: center;
   margin: 0;
 }
-ul {
-  display:flex;
-  list-style-type: none;
-}
-li {
-  padding: 5px 10px;
-}
-li>a {
-  color: #ebe5ff;
-}
-header>img{
-  width: 100px;
-}
+
 div>img{
   width: 100px;
   display: flex;
@@ -52,19 +33,6 @@ section {
  margin-bottom: 0px;
  margin-top: 0px;
  padding: 2px;
-}
-footer {
-  display: flex;
-  padding: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #60298c;
-}
-footer>a, footer>p{
-  padding: 10px;
-  display: flex;
-  color: #ebe5ff;
 }
 
 table,thead,tbody {

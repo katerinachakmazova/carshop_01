@@ -29,7 +29,7 @@ section {
   margin: 5px;
   padding: 10px;
 }
-[name="models"] {
+.models {
  margin-bottom: 0px;
  margin-top: 0px;
  padding: 2px;

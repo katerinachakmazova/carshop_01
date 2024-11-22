@@ -40,11 +40,11 @@
            <label for="drvexp">Досвід водіння</label>
            <select id="drvexp">
              <option value="---" selected>---</option>
-             <option value="less1">Менше року</option>
-             <option value="1to5">1-5 років</option>
+             <option value="less1">Експерт</option>
+             <option value="1to5">більше 10</option>
              <option value="5to10">5-10 років</option>
-             <option value="10to20">10-20 років</option>
-             <option value="20plus">більше 20 років</option>
+             <option value="10to20">2-5 років</option>
+             <option value="20plus">початківець</option>
            </select>
          </div>
         </fieldset>
@@ -60,7 +60,7 @@
          </div>
          <div>
            <label for="address">Адреса</label>
-           <textarea id="address" placeholder="Aдреса" rows="1" cols="100"></textarea>
+           <textarea id="address" placeholder="Aдреса" rows="3" cols="20"></textarea>
          </div>
         </fieldset>
         <fieldset>
@@ -92,15 +92,15 @@
          </div>
          <label>Колір</label>
          <div>
-           <input id="red" type="checkbox">
+           <input id="red" type="radio"name="color">
            <label for="red">червоний</label>
-           <input id="blue" type="checkbox">
-           <label for="blue">блакитний</label>
-           <input id="black" type="checkbox">
+           <input id="black" type="radio"name="color">
            <label for="black">чорний</label>
-           <input id="white" type="checkbox">
+           <input id="blue" type="radio"name="color">
+           <label for="blue">блакитний</label>
+           <input id="white" type="radio"name="color">
            <label for="white">білий</label>
-           <input id="grey" type="checkbox">
+           <input id="grey" type="radio"name="color">
            <label for="grey">сірий</label>
          </div>
          <div>
@@ -109,15 +109,20 @@
            id="price" 
            type="range"
            min="0"
-           max="40000"
-           step="10000"
+           max="80"
+           step="10"
            list="money"
            class="range">
            <datalist id="money"> 
-             <option value="0">0-10000$</option>
-             <option value="10000">10000-20000$</option>
-             <option value="20000">20000-30000$</option>
-             <option value="30000">30000-40000$</option>
+             <option value="0">0</option>
+             <option value="10">10</option>
+             <option value="20">20</option>
+             <option value="30">30</option>
+             <option value="40">40</option>
+             <option value="50">50</option>
+             <option value="60">60</option>
+             <option value="70">70</option>
+             <option value="80">80</option>
            </datalist>
          </div>
         </fieldset>

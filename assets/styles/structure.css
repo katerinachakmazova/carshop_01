@@ -27,8 +27,14 @@ footer {
   align-items: center;
   background-color: #60298c;
 }
-footer>a, footer>p{
+footer>div {
+  display: flex;
+  align-items: center;
+}
+footer>div>a, footer>div>p{
   padding: 10px;
   display: flex;
   color: #ebe5ff;
+  font-size: 0.8rem;
+  margin:3px;
 }

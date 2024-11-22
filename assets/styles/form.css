@@ -1,18 +1,85 @@
 @import url(structure.css);
-.range {
-  width:1100px;
-}
-datalist {
-  display: flex;
-  justify-content:space-evenly;
 
-}
-
-form {
-  margin-bottom: 20px;
-}
 header>nav>a
 {
   color: #ebe5ff;
   margin:5px;
+}
+form {
+  margin-bottom: 10px;
+}
+#forminfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+fieldset {
+  width: 20%;
+  min-width: 300px;
+  margin-bottom:10px;
+}
+
+fieldset> div{
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+label {
+  width:35%;
+  min-width: 70px;
+}
+input[type="date"], input[type="text"], input[type="email"], input[type="tel"], textarea  {
+  width: 60%;
+  min-width: 70px;
+}
+select{
+  width:40%;
+}
+.gender {
+  display: flex;
+  justify-content: space-between;
+}
+.gender>label[for] {
+  text-align: right;
+}
+label[for="drvexp"] {
+  width:53%;
+}
+#checkbox {
+  justify-self: flex-start;
+}
+.radio-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.radio {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+.radio > label {
+  width:auto;
+  min-width: 30px;
+}
+.range {
+  width:70%;
+}
+datalist {
+  display: flex;
+  justify-content:space-between;
+  align-self: flex-start;
+  margin-left: 2px;
+}
+option {
+  margin:1%;
+}
+.datalist {
+  display: flex;
+  flex-direction: column;
+
+}
+.buttons {
+  display:flex;
+  justify-content: center;
 }
